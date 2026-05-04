@@ -1,0 +1,2 @@
+# WarManager
+WarManager. + PassportManager integration.
