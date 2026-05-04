@@ -1,0 +1,19 @@
+name: WarManager
+version: '1.0'
+main: ru.florestdev.warManager.WarManager
+api-version: '1.21'
+prefix: WarManager
+load: STARTUP
+authors: [ FlorestDev ]
+description: Private FlorestMC's plugin on wars.
+depend: [PassportManager]
+
+commands:
+  war:
+    description: Основная команда для управления войнами.
+    usage: /war <create|stop|decline|accept>
+    permission: warmanager.use
+permissions:
+  warmanager.use:
+      default: true
+      description: Standart permission.
