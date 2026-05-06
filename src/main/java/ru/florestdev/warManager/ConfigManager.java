@@ -7,8 +7,6 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
 
-t
-
 import java.io.*;
 import java.util.*;
 
